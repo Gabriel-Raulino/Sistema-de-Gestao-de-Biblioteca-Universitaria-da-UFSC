@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>biblioteca.jpg</file>
+        <file>bu_logo.png</file>
+        <file>cinza.jpg</file>
+        <file>bu_logo.ico</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>bu_logo.ico</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>749</width>
+    <height>615</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Biblioteca Universitária - UFSC</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="resource.qrc">
+    <normaloff>:/images/bu_logo.ico</normaloff>:/images/bu_logo.ico</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-image: url(:/images/biblioteca.jpg);
+background-repeat: no-repeat;
+background-position: center;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="pushButton_CadLivro">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>230</y>
+      <width>161</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/images/cinza.jpg);
+color: rgb(0, 170, 255);</string>
+    </property>
+    <property name="text">
+     <string>Cadastrar Livro</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_CadCliente">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>280</y>
+      <width>161</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/images/cinza.jpg);
+color: rgb(0, 170, 255);</string>
+    </property>
+    <property name="text">
+     <string>Cadastrar Cliente</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_Operacoes">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>330</y>
+      <width>161</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/images/cinza.jpg);
+color: rgb(0, 170, 255);</string>
+    </property>
+    <property name="text">
+     <string>Operações</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_Buscar">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>380</y>
+      <width>161</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/images/cinza.jpg);
+color: rgb(0, 170, 255);</string>
+    </property>
+    <property name="text">
+     <string>Buscar Livro</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_Relatorios">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>430</y>
+      <width>161</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/images/cinza.jpg);
+color: rgb(0, 170, 255);</string>
+    </property>
+    <property name="text">
+     <string>Relatórios</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_logoBU">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>20</y>
+      <width>421</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/images/bu_logo.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>749</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="resource.qrc"/>
+ </resources>
+ <connections/>
+</ui>
